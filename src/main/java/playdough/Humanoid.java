@@ -5,7 +5,7 @@ public abstract class Humanoid {
     private int healthPoints, energyPoints;
     private boolean isConscious;
     private int strength, agility, wisdom, willpower;
-    private String name;
+    private String name;//something
 
 
     //constructions
