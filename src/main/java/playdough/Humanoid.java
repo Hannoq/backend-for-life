@@ -8,15 +8,17 @@ public abstract class Humanoid {
     private String name;//something
 
 
+
     //constructions
-    public Humanoid(int age, boolean isConscious, int strength, int agility, int wisdom, int willpower, String name) {
+    public Humanoid(String name, int age, int strength, int agility, int wisdom, int willpower) {
+        this.name = name;
         this.age = age;
-        this.isConscious = isConscious;
+        this.isConscious = true;
         this.strength = strength;
         this.agility = agility;
         this.wisdom = wisdom;
         this.willpower = willpower;
-        this.name = name;
+
     }
 
     public Humanoid() {
