@@ -3,7 +3,7 @@ package playdough;
 public abstract class Humanoid {
     private int age;
     private int healthPoints, energyPoints;
-    private boolean isConscious;
+    private boolean isConscious; //initialises inactive state
     private int strength, agility, wisdom, willpower;
     private String name;//something
 
