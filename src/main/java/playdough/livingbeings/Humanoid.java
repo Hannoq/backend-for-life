@@ -1,4 +1,4 @@
-package playdough;
+package playdough.livingbeings;
 
 public abstract class Humanoid {
     private int age;

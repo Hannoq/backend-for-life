@@ -1,4 +1,6 @@
-package playdough;
+package playdough.livingbeings;
+
+import java.util.*;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -15,4 +17,5 @@ public class MainClass {
 
 
     }
+
 }
