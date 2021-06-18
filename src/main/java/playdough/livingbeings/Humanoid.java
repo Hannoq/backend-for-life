@@ -1,7 +1,9 @@
 package playdough.livingbeings;
 
-public abstract class Humanoid {
-    private int age;
+import playdough.Thing;
+
+public abstract class Humanoid extends Thing {
+   // private int age; // implement later on
     private int healthPoints, energyPoints;
     private boolean isConscious; //initialises inactive state
     private int strength, agility, wisdom, willpower;
@@ -12,7 +14,7 @@ public abstract class Humanoid {
     //constructions
     public Humanoid(String name, int age, int strength, int agility, int wisdom, int willpower) {
         this.name = name;
-        this.age = age;
+      //  this.age = age;
         this.isConscious = true;
         this.strength = strength;
         this.agility = agility;
@@ -21,18 +23,19 @@ public abstract class Humanoid {
 
     }
 
+
     public Humanoid() {
 
     }
 
     //get-setters
-    public int getAge() {
-        return age;
-    }
+//    public int getAge() {
+//        return age;
+//    }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+//    public void setAge(int age) {
+//        this.age = age;
+//    }
 
     public boolean isConscious() {
         return isConscious;

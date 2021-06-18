@@ -1,17 +1,23 @@
 CSVExample.java
  CSVExample
-playdough/Elf.java
- playdough.Elf
-playdough/Humanoid.java
- playdough.Humanoid
-playdough/Orc.java
- playdough.Orc
-playdough/Human.java
- playdough.Human
-playdough/MainClass.java
- playdough.MainClass
-basic_test/Dumbass.java
- basic_test.Dumbass
+playdough/livingbeings/Humanoid.java
+ playdough.livingbeings.Humanoid
+playdough/livingbeings/Orc.java
+ playdough.livingbeings.Orc
+playdough/livingbeings/Elf.java
+ playdough.livingbeings.Elf
+playdough/livingbeings/Human.java
+ playdough.livingbeings.Human
+playdough/Thing.java
+ playdough.Thing
+ playdough.Thing$Stats
 basic_test/ClassTest.java
  basic_test.ClassTest
+ basic_test.ClassTest$A
+ basic_test.ClassTest$B
  basic_test.ClassTest$Cat
+ basic_test.ClassTest$NestedClass
+basic_test/NestedClassExtension.java
+ basic_test.NestedClassExtension
+playdough/MainClass.java
+ playdough.MainClass

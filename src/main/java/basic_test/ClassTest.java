@@ -17,6 +17,15 @@ public class ClassTest {
     static class B{
 
     }
+    public ClassTest(String value){
+        System.out.println("mainValue: " + value);
+    }
+    public class NestedClass{
+        public NestedClass(String nestedValue){
+            System.out.println("nestedValue: " + nestedValue);
+        }
+    }
+
     public static void main(String[] args) throws IOException {
 //        Cat cat =  new Cat();
 //
@@ -30,7 +39,10 @@ public class ClassTest {
 
         String str1 = "C:/Users/mrhan/Desktop/Learn/java_streams/first.txt";
         String str2 = "C:/Users/mrhan/Desktop/Learn/java_streams/second.txt";
-        B b = new B();
+        NestedClassExtension extension = new NestedClassExtension(new ClassTest("main"), "nested");
+        ClassTest mc = new ClassTest("main");
+        mc.new NestedClass("nest");
+
     }
 
     /*

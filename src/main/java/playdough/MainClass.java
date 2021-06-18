@@ -1,9 +1,21 @@
-package playdough.livingbeings;
+package playdough;
+
+import playdough.livingbeings.Elf;
+import playdough.livingbeings.Human;
+import playdough.livingbeings.Humanoid;
+import playdough.livingbeings.Orc;
 
 import java.util.*;
 
 public class MainClass {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+
+
+
+
         /*
         Humanoid orc1 = new Orc();
         orc1.setAgility(20);
@@ -17,5 +29,4 @@ public class MainClass {
 
 
     }
-
 }
