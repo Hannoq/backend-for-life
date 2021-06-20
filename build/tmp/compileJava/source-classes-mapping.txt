@@ -1,13 +1,5 @@
 CSVExample.java
  CSVExample
-playdough/livingbeings/Humanoid.java
- playdough.livingbeings.Humanoid
-playdough/livingbeings/Orc.java
- playdough.livingbeings.Orc
-playdough/livingbeings/Elf.java
- playdough.livingbeings.Elf
-playdough/livingbeings/Human.java
- playdough.livingbeings.Human
 playdough/Thing.java
  playdough.Thing
  playdough.Thing$Stats
@@ -19,5 +11,18 @@ basic_test/ClassTest.java
  basic_test.ClassTest$NestedClass
 basic_test/NestedClassExtension.java
  basic_test.NestedClassExtension
+playdough/locations/Location.java
+ playdough.locations.Location
+ playdough.locations.Location$Type
+playdough/livingbeings/Humanoid.java
+ playdough.livingbeings.Humanoid
+playdough/livingbeings/Elf.java
+ playdough.livingbeings.Elf
+playdough/livingbeings/Orc.java
+ playdough.livingbeings.Orc
+playdough/livingbeings/Human.java
+ playdough.livingbeings.Human
+playdough/Game.java
+ playdough.Game
 playdough/MainClass.java
  playdough.MainClass

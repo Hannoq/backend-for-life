@@ -101,6 +101,10 @@ public abstract class Humanoid extends Thing {
         this.energyPoints = energyPoints;
     }
 
+    public String getRaceName(){
+        return null;
+    }
+
     public void punch(Humanoid humanoid){
         humanoid.healthPoints -= (int) ((this.strength / 5) + (this.agility / 10) + 5);
     }
